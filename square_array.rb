@@ -5,5 +5,9 @@
 
 
 def square_array(array)
-  result = array.each**2
+  new_array = []
+  array.each do |i|
+    new_array = i ** 2
+  end
+  return new_array
 end
